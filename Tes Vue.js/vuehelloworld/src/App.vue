@@ -16,10 +16,10 @@ export default{
 </script>
 
 <template>
-  <table class="border-separate border border-slate-500 p-1">
+  <table class="border-separate border border-slate-500 p-1 ">
     <tr>
-      <th class="border border-slate-600" >Waktu</th>
-      <th class="border border-slate-600" >Suhu</th>
+      <th class="border border-slate-600 p-1 bg-blue-500 text-white" >Waktu</th>
+      <th class="border border-slate-600 p-1 bg-blue-500 text-white" >Suhu</th>
     </tr>
     <tr v-for="item in listsuhu">
       <td class="border border-slate-700" >{{ item.waktu }}</td>
@@ -27,39 +27,10 @@ export default{
     </tr>
   </table>
   <div>
-    <button class="rounded-3xl p-3 bg-blue-500 text-white" @click="ambildata()">Ambil Data  </button>
+    <button class="rounded-3xl p-3 bg-green-500 text-white" @click="ambildata()">Ambil Data  </button>
   </div>
 
   <main>
     <TheWelcome />
   </main>
 </template>
-
-<style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
-</style>
