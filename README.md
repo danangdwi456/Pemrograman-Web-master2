@@ -5,12 +5,7 @@ Frontend Folder Tes Vue.js/vuehelloworld
 Backend Folder NodeJS
 
 
-Ini Headeing Level 1
-====================
-
-ini paragraf, bla bla bla...
-
-Ini heading level 2
--------------------
-
-ini paragraf, bla bla bla...
+- [x] Menulis artikel tentang markdown
+- [ ] Belajar Git di Petanikode
+- [ ] Belajar Bahasa pemrograman Rust
+- [x] Membuat template blog dengan bootstrap
